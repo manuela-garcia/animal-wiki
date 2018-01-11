@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var animal = prompt("What animal are you itching to learn about today?");
+  
 
   if (animal === 'puffins') {
     $('#puffins').show();
