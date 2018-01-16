@@ -1,12 +1,15 @@
 $(document).ready(function() {
-  
 
-  if (animal === 'puffins') {
-    $('#puffins').show();
-  } else if (animal === 'quetzals') {
-    $('#quetzals').show();
-  } else {
-    $('#sloths').show();
-  }
+  $("button#puffins-button").click(function() {
+    $('#puffins').fadeToggle();
+  });
+
+  $("button#quetzals-button").click(function() {
+    $('#quetzals').fadeToggle();
+  });
+
+  $("button#sloths-button").click(function() {
+    $('#sloths').fadeToggle();
+  });
 
 });
